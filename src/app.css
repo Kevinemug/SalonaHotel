@@ -1,0 +1,342 @@
+.navContainer {
+  max-width: 100%;
+  height: 120px;
+  background: #90d3f9;
+  /* position: fixed; */
+  padding: 20px;
+}
+.salonaHotel {
+  width: 206px;
+  height: 61px;
+
+  font-family: "Inspiration";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 48px;
+  line-height: 61px;
+  color: #f5f5f5;
+}
+.register {
+  width: 132px;
+  height: 30px;
+  background: #2986f2;
+  border-radius: 20px;
+  color: #ffffff;
+  border: none;
+}
+.register:focus{
+  outline: none;
+}
+.login {
+  width: 93px;
+  height: 27px;
+  background: #ffffff;
+  border-radius: 40px;
+  text-align: center;
+  color: #2986f2;
+  border: none;
+}
+.login:focus{
+  outline: none;
+}
+.navBtn {
+  width: 111px;
+  height: 30px;
+  background: white;
+  border-radius: 10px;
+  border: none;
+  color: #2986f2;
+
+  font-family: "IM FELL Great Primer";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+.navBtn:focus {
+  outline: none;
+}
+
+.navBtnActive {
+  background: #2986f2;
+  color: white;
+}
+.navBtnActive:focus{
+  outline: none;
+}
+.navHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.account {
+  margin-top: 20px;
+}
+.navLinksbtn {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.pageContainer {
+  width: 203px;
+  height: 101px;
+  background: #90d3f9;
+  margin-top: 50px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pageName {
+  font-family: "Inder";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+
+  color: #ffffff;
+}
+.roomContainer {
+  width: 999px;
+  height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  margin-left: 300px;
+  margin-top: 80px;
+}
+.roomImage {
+  object-fit: cover;
+}
+.roomDescription {
+  padding: 10px;
+}
+.roomTitle {
+  width: 378.93px;
+  height: 77px;
+  font-family: "Inder";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 25px;
+  text-align: center;
+  margin-left: 60px;
+  margin-top: 20px;
+  color: #000000;
+}
+.roomSubTitle {
+  font-family: "Inder";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #868181;
+}
+.roomIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #699bf7;
+  font-size: 30px;
+}
+.pIcon {
+  font-size: 10px;
+  color: #868181;
+}
+.bookBtn {
+  width: 103px;
+  height: 45px;
+  color: #fff;
+  background: #2986f2;
+  border-radius: 50px;
+  border: none;
+  font-family: "Inder";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.servicesContainer {
+  width: 995px;
+  height: 430px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 300px;
+  margin-top:50px ;
+}
+.servicesImage{
+    object-fit: cover;
+    overflow: hidden;
+}
+.servicesDescription{
+    padding: 10px;
+}
+.serviceTitle{
+  width: 391px;
+height: 75px;
+
+font-family: 'Inder';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 60px;
+text-align: center;
+
+color: #000000;
+
+}
+.servicesSubtitle{
+
+font-family: 'Inder';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+text-align: center;
+color: #868181;
+margin-top: 120px;
+}
+.bookingsContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.bookingTypeContainer{
+  height:auto;
+  width: 400px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+
+.bookingActive{
+  background: #2986f2;
+  color: white;
+
+}
+.bookingFormPlaceHolder{
+  height:500px;
+  width: 700px;
+
+}
+.bookingLinkContainer .active{
+  max-width: 100%;
+height: 83px;
+
+background: #2986F2;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.bookingLinkContainer{
+    max-width: 100%;
+height: 83px;
+
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+border-bottom: 1px solid grey;
+
+}
+
+.bookingLinkParagraph{
+  width: 138px;
+height: 41px;
+
+font-family: 'Inder';
+font-style: normal;
+font-weight: 400px;
+font-size: 32px;
+line-height: 30px;
+text-align: center;
+
+color: #2986F2;
+
+}
+.bookingLinkParagraph:focus{
+  outline: none;
+}
+.roomFormContainer{
+  width: 582px;
+height: auto;
+background-image: url('https://www.gadgetreview.com/wp-content/uploads/tv-backlight-vs-brightness-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(80%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+margin-left: 30px;
+}
+.roomFormContainer label {
+  font-family: 'Inder';
+font-style: normal;
+font-weight: 400px;
+font-size: 20px;
+line-height: 25px;
+
+color: white ;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.formRoom{
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.formRoom input {
+  width: 272px;
+height: 45px;
+border-radius: 40px;
+background: #FFFFFF;
+border-radius: 40px;
+text-align: center;
+border:none;
+border: 1px solid grey;
+margin-left: 50px;
+}
+#namel{
+  margin-left: 110px;
+}
+.subBtn{
+  width: 186px;
+height: 69px;
+border-radius: 50px;
+background: #2986F2;
+border-radius: 50px;
+}
+.selectRoom{
+  width: 272px;
+  height: 45px;
+  border-radius: 40px;
+  background: #FFFFFF;
+  border-radius: 40px;
+  text-align: center;
+  border:none;
+  border: 1px solid grey;
+  margin-left: 50px;
+  
+}
+.roomParagraph{
+  width: 453px;
+height: 79px;
+
+font-family: 'Inder';
+font-style: normal;
+font-weight: bolder;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+margin-left: 40px;
+color: white;
+
+}
