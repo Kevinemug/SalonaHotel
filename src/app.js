@@ -9,11 +9,13 @@ import RoomForm from "./components/roomForm";
 import ConferenceForm from "./components/conferenceForm";
 import SaunaAndSteam from "./components/saunaAndSteam";
 import Massage from "./components/massage";
+import Landing from "./components/landing";
 const App = () => {
   return (
     <>
       <Navigation />
       <Routes>
+        <Route path="/" exact element={<Landing />} />
         <Route path="/room" element={<Room />} />
         <Route path="/service" element={<Service />} />
         <Route path="/bookings" element={<Bookings />} />

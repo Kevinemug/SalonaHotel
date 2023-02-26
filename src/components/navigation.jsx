@@ -1,5 +1,7 @@
 import React, { Component, useState } from "react";
 import { NavLink } from "react-router-dom";
+import { AccountLogin } from "./login";
+
 const Navigation = () => {
   const [isClicked, setIsClicked] = useState(null);
   const handleClick = (btnId) => {
@@ -12,6 +14,11 @@ const Navigation = () => {
       return "navBtn";
     }
   };
+  const [loginPopup, setLoginPopup] = useState(false);
+
+  const DisplayLoginPopup = () => {
+    setLoginPopup(!loginPopup);
+  };
 
   return (
     <>
@@ -19,11 +26,23 @@ const Navigation = () => {
         <div className="navHeader">
           <div className="salonaHotel">SalonaHotel</div>
           <div className="account">
-            <button className="register">Register</button>
-            <button className="login">Login</button>
+            <button className="register" onClick={DisplayLoginPopup}>
+              Login
+            </button>
+            {loginPopup ? <AccountLogin /> : null}
           </div>
         </div>
         <div className="navLinksbtn">
+          <div>
+            <NavLink to="/">
+              <button
+                className={getButtonClassName(0)}
+                onClick={() => handleClick(0)}
+              >
+                Home
+              </button>
+            </NavLink>
+          </div>
           <div>
             <NavLink to="/room">
               <button
