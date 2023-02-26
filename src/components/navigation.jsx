@@ -73,7 +73,7 @@ const Navigation = () => {
               </button>
             </NavLink>
           </div>
-          <div>
+          {/* <div>
             <NavLink to="/pages">
               <button
                 className={getButtonClassName(4)}
@@ -82,7 +82,7 @@ const Navigation = () => {
                 Pages
               </button>
             </NavLink>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
