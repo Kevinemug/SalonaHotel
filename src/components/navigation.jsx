@@ -73,6 +73,16 @@ const Navigation = () => {
               </button>
             </NavLink>
           </div>
+          <div>
+            <NavLink to="/about">
+              <button
+                className={getButtonClassName(4)}
+                onClick={() => handleClick(4)}
+              >
+                About
+              </button>
+            </NavLink>
+          </div>
           {/* <div>
             <NavLink to="/pages">
               <button

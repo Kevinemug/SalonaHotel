@@ -10,6 +10,7 @@ import ConferenceForm from "./components/conferenceForm";
 import SaunaAndSteam from "./components/saunaAndSteam";
 import Massage from "./components/massage";
 import Landing from "./components/landing";
+import About from "./components/about";
 const App = () => {
   return (
     <>
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/service" element={<Service />} />
         <Route path="/bookings" element={<Bookings />} />
         <Route path="/pages" element={<Pages />} />
+        <Route path="/about" element={<About />} />
         <Route path="/roomForm" element={<RoomForm />} />
         <Route path="/bookings" element={<Bookings />}>
           <Route path="/bookings" element={<RoomForm />} />

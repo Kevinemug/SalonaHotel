@@ -80,6 +80,8 @@
   justify-content: center;
   align-items: center;
 }
+
+
 .pageContainer {
   width: 203px;
   height: 101px;
@@ -110,6 +112,7 @@
 }
 .roomImage {
   object-fit: cover;
+  max-width: 100%;
 }
 .roomDescription {
   padding: 10px;
@@ -160,6 +163,9 @@
   font-size: 16px;
   line-height: 20px;
 }
+.servicesContainer .bookBtn{
+  margin-top: 50px; margin-left: 400px;
+}
 
 .servicesContainer {
   width: 995px;
@@ -171,6 +177,7 @@ grid-template-columns: 1fr 1fr;
   margin-left: 300px;
   margin-top:50px ;
 }
+
 .servicesImage{
     object-fit: cover;
     overflow: hidden;
@@ -662,4 +669,139 @@ color: white;
 .container {
   max-width: 1140px;
   margin: 0 auto;
+}
+@media only screen and (max-width: 767px) {
+
+.roomContainer{
+  width: 100%;
+  max-width: 100%;
+
+  overflow: hidden;
+height:500px;
+display: grid;
+grid-template-columns:  0.5fr;
+margin-left: 0;
+
+
+}
+.roomDescription {
+  padding: 0px;
+}
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.roomTitle {
+  height: 77px;
+  font-family: "Inder";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 4px;
+  margin-left: 30px;
+  margin-top: 20px;
+  color: #000000;
+}
+.roomSubTitle {
+  font-family: "Inder";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: #868181;
+  font-size: 1em; /* adjust font size as needed */
+  line-height: 1.2em; /* adjust line height as needed */
+  padding: 0; /* remove any default padding */
+  margin: 0; /* remove any default margin */
+  overflow: hidden; 
+  margin-top: -60px;
+}
+
+
+  /* Your mobile styles here */
+}
+
+/* .roomContainer {
+  width: 999px;
+  height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  margin-left: 300px;
+  margin-top: 80px;
+} */
+
+@media screen and (max-width: 768px) {
+  .servicesContainer {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  display: grid;
+  grid-template-columns: 1fr ;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 0px;
+    margin-top:50px ;
+  }
+  
+  .servicesImage{
+    width: 350px;
+    max-width: 100%;
+    height:200px;
+    object-fit: cover;
+
+  }
+  .servicesDescription{
+      padding: 5px;
+  }
+  .serviceTitle{
+  font-family: 'Inder';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  
+  color: #000000;
+  
+  }
+  .servicesSubtitle{
+  
+  font-family: 'Inder';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #868181;
+  margin-top: -60px;
+  width: 300px;
+  max-width: 100%;
+
+  }
+  .servicesContainer .bookBtn {
+    width: 103px;
+    height: 45px;
+    color: #fff;
+    background: #2986f2;
+    border-radius: 50px;
+    border: none;
+    font-family: "Inder";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 10px;
+    line-height: 20px;
+  }
+  
+}  
+
+
+
+
+body{width:100%;
+max-width:100%;
+overflow-x: hidden;
 }

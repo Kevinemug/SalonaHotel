@@ -33,7 +33,7 @@ const Service = () => {
         </NavLink>
       </Fade>
       <Fade left>
-        <NavLink to="/" className="link">
+        <NavLink to="/about" className="link">
           <Services
             image={billard}
             title="Coolpooltables Available for you 24/7"
@@ -42,7 +42,7 @@ const Service = () => {
         </NavLink>
       </Fade>
       <Fade left>
-        <NavLink to="/" className="link">
+        <NavLink to="/about" className="link">
           <Services
             image={bar}
             title="Bar And Restaurant open 24/7 "

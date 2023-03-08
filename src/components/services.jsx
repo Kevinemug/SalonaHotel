@@ -17,10 +17,7 @@ const Services = ({ image, title, description, button }) => {
             blanditiis ea voluptatum doloribus esse beatae doloremque quasi!
             Numquam ex incidunt quisquam totam est!
           </div>
-          <button
-            className="bookBtn"
-            style={{ marginTop: "50px", marginLeft: "400px" }}
-          >
+          <button className="bookBtn" style={{}}>
             {button}
           </button>
         </div>

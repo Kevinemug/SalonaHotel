@@ -39,7 +39,7 @@ function ImageSlider() {
           src={welcome}
           className="slider"
           style={{
-            width: "700px",
+            width: "500px",
             height: "500px",
             position: "absolute",
             left: "900px",
