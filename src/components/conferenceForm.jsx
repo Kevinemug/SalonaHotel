@@ -17,18 +17,22 @@ const ConferenceForm = () => {
           Hall booking!
         </p>
 
-        <form className="formRoom">
+        <form
+          className="formRoom"
+          action="https://formspree.io/f/mqkolzbv"
+          method="POST"
+        >
           <div>
             <label for="name">Names:</label>
-            <input type="text" id="namel" name="name" />
+            <input type="text" id="namel" name="name of client" />
           </div>
           <div>
             <label for="name">Date of arrival:</label>
-            <input type="calendar" id="name" name="name" />
+            <input type="calendar" id="name" name="date of arrival" />
           </div>
           <div>
             <label for="name">Time of arrival:</label>
-            <input type="calendar" id="name" name="name" />
+            <input type="calendar" id="name" name="Time of arrival" />
           </div>
 
           <input
