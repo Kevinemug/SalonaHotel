@@ -15,26 +15,33 @@ const RoomForm = () => {
           please Provide us with your information to confirm your Room booking!
         </p>
 
-        <form className="formRoom">
+        <form
+          className="formRoom"
+          action="https://formspree.io/f/mqkolzbv"
+          method="POST"
+        >
           <div>
             <label for="name">Names:</label>
             <input type="text" id="namel" name="name" />
           </div>
           <div>
             <label for="name">Date of arrival:</label>
-            <input type="calendar" id="name" name="name" />
+            <input type="text" id="name" name="Date" />
           </div>
           <div>
             <label for="name">Time of arrival:</label>
-            <input type="calendar" id="name" name="name" />
+            <input type="text" id="name" name="time" />
           </div>
 
           <div>
             <label for="city">Select Room type</label>
-            <select id="city" name="city" className="selectRoom">
-              <option value="new-york">Twin bed</option>
-              <option value="los-angeles">Master Room</option>
-              <option value="chicago">Double Twin bed</option>
+            <select id="city" name="Room type" className="selectRoom">
+              <option value="20$ room" name="twin">
+                20$ room
+              </option>
+              <option value="20$ room" name="double">
+                30$ room
+              </option>
             </select>
           </div>
 
