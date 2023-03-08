@@ -3,7 +3,7 @@ import Page from "./page";
 import Rooms from "./rooms";
 // import herro from "./herro.jpeg";
 import double from "./double.jpeg";
-import single from "./single.jpeg";
+import master from "./master.jpeg";
 import se from "./se.webp";
 import si from "./si.jpg";
 import thirty from "./thirty.jpeg";
@@ -23,7 +23,7 @@ const Room = () => {
           descripton="Enjoy the night with your loved ones at Salona Hotel with this 2
             leeps bathroom that has a private bathroom with shower and hot water"
           sleeps={"1 sleeps"}
-          button="$30"
+          button="$25"
           bunk="1 bunk bed"
         />
       </Fade>
@@ -41,7 +41,7 @@ const Room = () => {
       </Fade>
       <Fade right>
         <Rooms
-          image={single}
+          image={master}
           title="Standard Private Room With  a private bathroom"
           descripton="Enjoy the night in a private room at Salona Hotel with a private bathroom 
             with shower and hot water to get all conforts you look forward to"
@@ -50,7 +50,7 @@ const Room = () => {
           bunk="1 bunk bed"
         />
       </Fade>
-      <Fade right>
+      {/* <Fade right>
         <Rooms
           image={se}
           title="Standard Room With 2 sleeps and a private bathroom"
@@ -60,7 +60,7 @@ const Room = () => {
           button="$30"
           bunk="2 bunk beds"
         />
-      </Fade>
+      </Fade> */}
       <Fade right>
         <Rooms
           image={si}

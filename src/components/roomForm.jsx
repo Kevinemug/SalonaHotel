@@ -36,10 +36,14 @@ const RoomForm = () => {
           <div>
             <label for="city">Select Room type</label>
             <select id="city" name="Room type" className="selectRoom">
-              <option value="20$ room" name="twin">
+              <option value="20$ room" name="room1">
                 20$ room
               </option>
-              <option value="20$ room" name="double">
+              <option value="25$ room" name="room2">
+                25$ room
+              </option>
+
+              <option value="20$ room" name="room3">
                 30$ room
               </option>
             </select>

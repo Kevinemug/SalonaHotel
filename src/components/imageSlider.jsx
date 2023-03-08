@@ -8,8 +8,9 @@ import first from "./first.jpeg";
 import second from "./second.jpeg";
 import third from "./third.jpeg";
 import welcome from "./welcome.jpg";
+import land from "./land.jpeg";
 function ImageSlider() {
-  const images = [first, second, third, herro, landing];
+  const images = [land, first, second, third, herro, landing];
 
   const settings = {
     dots: true,
@@ -39,8 +40,8 @@ function ImageSlider() {
           src={welcome}
           className="slider"
           style={{
-            width: "500px",
-            height: "500px",
+            width: "700px",
+            height: "480px",
             position: "absolute",
             left: "900px",
             top: "120px",
