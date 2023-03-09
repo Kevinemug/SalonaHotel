@@ -19,7 +19,7 @@ const ConferenceForm = () => {
 
         <form
           className="formRoom"
-          action="https://formspree.io/f/mqkolzbv"
+          action="https://formspree.io/f/xayzbyod"
           method="POST"
         >
           <div>

@@ -17,7 +17,7 @@ const RoomForm = () => {
 
         <form
           className="formRoom"
-          action="https://formspree.io/f/xqkolzlv"
+          action="https://formspree.io/f/mbjekjog"
           method="POST"
         >
           <div>
@@ -30,7 +30,7 @@ const RoomForm = () => {
           </div>
           <div>
             <label for="name">Time of arrival:</label>
-            <input type="text" id="name" name="time" />
+            <input type="text" id="name" name="time of arrival" />
           </div>
 
           <div>

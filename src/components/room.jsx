@@ -63,13 +63,13 @@ const Room = () => {
       </Fade> */}
       <Fade right>
         <Rooms
-          image={si}
-          title="Standard Room With 2 sleeps and a private bathroom"
+          image={thirty}
+          title="Standard Room  and a private bathroom"
           descripton="Enjoy the night with your loved ones at Salona Hotel with this 2
             leeps bathroom that has a private bathroom with shower and hot water"
           sleeps={"2 sleeps"}
           button="$30"
-          bunk="2 bunk beds"
+          bunk="1 bunk bed"
         />
       </Fade>
     </>

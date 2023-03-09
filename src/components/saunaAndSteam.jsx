@@ -19,7 +19,7 @@ const SaunaAndSteam = () => {
 
         <form
           className="formRoom"
-          action="https://formspree.io/f/xleklrlq"
+          action="https://formspree.io/f/myyapywl"
           method="POST"
         >
           <div>
