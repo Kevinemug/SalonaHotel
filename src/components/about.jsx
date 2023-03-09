@@ -49,7 +49,7 @@ const About = () => {
               color: "dodgerblue",
             }}
           >
-            salonahotel@gmail.com
+            salonahotel1@gmail.com
           </span>
         </div>
         <div style={{ marginLeft: "400px", marginTop: "40px" }}>
