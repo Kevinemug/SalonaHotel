@@ -23,7 +23,7 @@ const Room = () => {
           descripton="Enjoy the night with your loved ones at Salona Hotel with this 2
             leeps bathroom that has a private bathroom with shower and hot water"
           sleeps={"1 sleeps"}
-          button="$25"
+          button="$15"
           bunk="1 bunk bed"
         />
       </Fade>
@@ -35,7 +35,7 @@ const Room = () => {
           descripton="Enjoy the night with your loved ones at Salona Hotel with this 2
             leeps bathroom that has a private bathroom with shower and hot water"
           sleeps={"1 sleep"}
-          button="$20"
+          button="$12"
           bunk="1 bunk bed"
         />
       </Fade>
@@ -46,7 +46,7 @@ const Room = () => {
           descripton="Enjoy the night in a private room at Salona Hotel with a private bathroom 
             with shower and hot water to get all conforts you look forward to"
           sleeps={"1 sleep"}
-          button="$30"
+          button="$20"
           bunk="1 bunk bed"
         />
       </Fade>
@@ -68,7 +68,7 @@ const Room = () => {
           descripton="Enjoy the night with your loved ones at Salona Hotel with this 2
             leeps bathroom that has a private bathroom with shower and hot water"
           sleeps={"2 sleeps"}
-          button="$30"
+          button="$20"
           bunk="1 bunk bed"
         />
       </Fade>

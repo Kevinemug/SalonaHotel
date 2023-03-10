@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Page from "./page";
-import bar from "./bar.jpg";
+import inzoka from "./inzoka.jpeg";
 import conference from "./conference.jpg";
 import sauna from "./sauna.jpg";
 import billard from "./billard.jpg";
@@ -27,7 +27,7 @@ const Service = () => {
         <NavLink to="/bookings/conferenceForm" className="link">
           <Services
             image={conference}
-            title="Conference Hall Available for meetings and events"
+            title="Conference Halll Available for meetings and events"
             button="Book now!"
           />
         </NavLink>
@@ -44,7 +44,7 @@ const Service = () => {
       <Fade left>
         <NavLink to="/about" className="link">
           <Services
-            image={bar}
+            image={inzoka}
             title="Bar And Restaurant open 24/7 "
             button="Ask Info!"
           />
