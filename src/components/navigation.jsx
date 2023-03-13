@@ -1,6 +1,7 @@
 import React, { Component, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { AccountLogin } from "./login";
+import "../styles/hero.css";
 
 const Navigation = () => {
   const [isClicked, setIsClicked] = useState(null);

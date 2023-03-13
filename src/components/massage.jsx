@@ -24,39 +24,35 @@ const Massage = () => {
         >
           <div>
             <label for="name">Names:</label>
-            <input type="text" id="namel" name="name of client" />
+            <input
+              type="text"
+              id="namel"
+              name="name of client"
+              class="form-control"
+            />
           </div>
           <div>
             <label for="name">Date of arrival:</label>
-            <input type="text" id="name" name="date of arrival" />
+            <input
+              type="date"
+              id="name"
+              name="date of arrival"
+              class="form-control"
+            />
           </div>
           <div>
             <label for="name">Time of arrival:</label>
-            <input type="calendar" id="name" name="time of arrival" />
+            <input
+              type="time"
+              id="name"
+              name="time of arrival"
+              class="form-control"
+            />
           </div>
 
           <input
             type="submit"
-            className="subBtn"
-            style={{
-              background: "blue",
-              width: "186px",
-              height: "69px",
-              borderRadius: "50px",
-              background: "#2986F2",
-              borderRadius: "50px",
-              marginTop: "-80px",
-              fontFamily: "Iceberg",
-              fontStyle: " normal",
-              fontWeight: "400px",
-              fontSize: "24px",
-              lineHeight: "29px",
-              /* identical to box height */
-
-              textAlign: "center",
-
-              color: "#FFFFFF",
-            }}
+            className="subBtn btn btn-primary"
             value="Submit"
           />
         </form>

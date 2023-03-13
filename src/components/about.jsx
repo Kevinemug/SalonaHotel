@@ -4,6 +4,7 @@ import Page from "./page";
 import { FiPhoneCall } from "react-icons/fi";
 import { SiGmail } from "react-icons/si";
 import { HiLocationMarker } from "react-icons/hi";
+import "../styles/about.css";
 const About = () => {
   const recipientEmail = "kevineeuwamahoro@gmail.com";
   const emailSubject = "Hello from my React App!";
@@ -17,66 +18,21 @@ const About = () => {
         <Page name="/About us" />
       </Fade>
       <div className="locationDescription">
-        <h3 style={{ color: "grey", marginLeft: "500px" }}>How to Reach us</h3>
-        <div style={{ marginLeft: "400px", marginTop: "60px" }}>
-          <FiPhoneCall
-            style={{
-              fontSize: "20px",
-            }}
-          />{" "}
-          <span
-            style={{
-              marginLeft: "30px",
-              fontSize: "20px",
-              fontWeight: "bolder",
-              color: "dodgerblue",
-            }}
-          >
+        <h3 className="locationHeading">How to Reach Us</h3>
+        <div className="contactSection">
+          <FiPhoneCall className="contactIcon" />
+          <span className="contactText">
             +256 741 740994 or +256 701 217687{" "}
           </span>
         </div>
-        <div style={{ marginLeft: "400px", marginTop: "40px" }}>
-          <SiGmail
-            style={{
-              fontSize: "20px",
-            }}
-          />{" "}
-          <span
-            style={{
-              marginLeft: "30px",
-              fontSize: "20px",
-              fontWeight: "bolder",
-              color: "dodgerblue",
-            }}
-          >
-            salonahotel1@gmail.com
-          </span>
+        <div className="contactSection">
+          <SiGmail className="contactIcon" />
+          <span className="contactText">salonahotel1@gmail.com</span>
         </div>
-        <div style={{ marginLeft: "400px", marginTop: "40px" }}>
-          <HiLocationMarker
-            style={{
-              fontSize: "20px",
-            }}
-          />{" "}
-          <span
-            style={{
-              marginLeft: "30px",
-              fontSize: "20px",
-              fontWeight: "bolder",
-              color: "dodgerblue",
-            }}
-          >
-            <p
-              style={{
-                color: "grey",
-                fontSize: "13px",
-                fontStyle: "italic",
-                marginTop: "-20px",
-                marginLeft: "50px",
-              }}
-            >
-              Located at Namirembe Road Mengo Bakuli app-Sanyu Babies Home
-            </p>
+        <div className="contactSection">
+          <HiLocationMarker className="contactIcon" />
+          <span className="contactText">
+            Located at Namirembe Road Mengo Bakuli app-Sanyu Babies Home
           </span>
         </div>
       </div>

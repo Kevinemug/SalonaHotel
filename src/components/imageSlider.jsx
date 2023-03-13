@@ -9,6 +9,7 @@ import second from "./second.jpeg";
 import third from "./third.jpeg";
 import welcome from "./welcome.jpg";
 import land from "./land.jpeg";
+import "../styles/hero.css";
 function ImageSlider() {
   const images = [land, first, second, third, herro, landing];
 

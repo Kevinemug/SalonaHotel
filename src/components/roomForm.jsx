@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { TbBrandBooking } from "react-icons/tb";
+import "../styles/hero.css";
 const RoomForm = () => {
   return (
     <>
@@ -8,7 +9,7 @@ const RoomForm = () => {
           style={{
             color: "  #2986F2 ",
             fontSize: "100px",
-            marginLeft: "200px",
+            marginLeft: "100px",
           }}
         />
         <p className="roomParagraph">
@@ -16,63 +17,51 @@ const RoomForm = () => {
         </p>
 
         <form
-          className="formRoom"
+          class="formRoom"
           action="https://formspree.io/f/mbjekjog"
           method="POST"
         >
-          <div>
-            <label for="name">Names:</label>
-            <input type="text" id="namel" name="name" />
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="namel"
+              name="name"
+              required
+            />
           </div>
-          <div>
-            <label for="name">Date of arrival:</label>
-            <input type="text" id="name" name="Date of arrival" />
+          <div class="form-group">
+            <label for="date">Date of arrival:</label>
+            <input
+              type="date"
+              class="form-control"
+              id="date"
+              name="date"
+              required
+            />
           </div>
-          <div>
-            <label for="name">Time of arrival:</label>
-            <input type="text" id="name" name="time of arrival" />
+          <div class="form-group">
+            <label for="time">Time of arrival:</label>
+            <input
+              type="time"
+              class="form-control"
+              id="time"
+              name="time"
+              required
+            />
           </div>
-
-          <div>
-            <label for="city">Select Room type</label>
-            <select id="city" name="Room type" className="selectRoom">
-              <option value="20$ room" name="room1">
-                20$ room
-              </option>
-              <option value="25$ room" name="room2">
-                25$ room
-              </option>
-
-              <option value="20$ room" name="room3">
-                30$ room
-              </option>
+          <div class="form-group">
+            <label for="roomType">Select Room type:</label>
+            <select class="form-control" id="roomType" name="roomType" required>
+              <option value="20$ room">20$ room</option>
+              <option value="25$ room">25$ room</option>
+              <option value="30$ room">30$ room</option>
             </select>
           </div>
-
-          <input
-            type="submit"
-            className="subBtn"
-            style={{
-              background: "blue",
-              width: "186px",
-              height: "69px",
-              borderRadius: "50px",
-              background: "#2986F2",
-              borderRadius: "50px",
-              marginTop: "-80px",
-              fontFamily: "Iceberg",
-              fontStyle: " normal",
-              fontWeight: "400px",
-              fontSize: "24px",
-              lineHeight: "29px",
-              /* identical to box height */
-
-              textAlign: "center",
-
-              color: "#FFFFFF",
-            }}
-            value="Submit"
-          />
+          <button type="submit" class="btn btn-primary">
+            Submit
+          </button>
         </form>
       </div>
     </>

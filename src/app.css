@@ -1,3 +1,5 @@
+@media only screen and (min-width: 1200px) {
+
 .navContainer {
   max-width: 100%;
   height: 120px;
@@ -277,14 +279,14 @@ color: #2986F2;
 .roomFormContainer{
   width: 582px;
 height: auto;
-background-image: url('https://www.gadgetreview.com/wp-content/uploads/tv-backlight-vs-brightness-image.jpg');
+/* background-image: url('https://www.gadgetreview.com/wp-content/uploads/tv-backlight-vs-brightness-image.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
   filter: brightness(80%);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 margin-left: 30px;
 }
-.roomFormContainer label {
+/* .roomFormContainer label {
   font-family: 'Inder';
 font-style: normal;
 font-weight: 400px;
@@ -300,17 +302,6 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   flex-direction: column;
   gap: 80px;
 }
-.formRoom input {
-  width: 272px;
-height: 45px;
-border-radius: 40px;
-background: #FFFFFF;
-border-radius: 40px;
-text-align: center;
-border:none;
-border: 1px solid grey;
-margin-left: 50px;
-}
 #namel{
   margin-left: 110px;
 }
@@ -320,7 +311,7 @@ height: 69px;
 border-radius: 50px;
 background: #2986F2;
 border-radius: 50px;
-}
+} */
 .selectRoom{
   width: 272px;
   height: 45px;
@@ -804,4 +795,5 @@ body {
 body{width:100%;
 max-width:100%;
 overflow-x: hidden;
+}
 }

@@ -1,0 +1,58 @@
+.locationDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .locationHeading {
+    color: grey;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .contactSection {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .contactIcon {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .contactText {
+    font-size: 20px;
+    font-weight: bold;
+    color: dodgerblue;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .locationDescription {
+      margin-top: 20px;
+    }
+  
+    .locationHeading {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .contactSection {
+      flex-direction: column;
+      /* align-items: flex-start; */
+      margin-bottom: 30px;
+    }
+  
+    .contactIcon {
+      margin-right: 0;
+      margin-bottom: 5px;
+    }
+  
+    .contactText {
+      font-size: 16px;
+    }
+  }
+  

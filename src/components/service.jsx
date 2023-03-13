@@ -20,6 +20,7 @@ const Service = () => {
             image={sauna}
             title="Enjoy Our Luxurious Sauna and massage"
             button="Appointment!"
+            description="Our masseuse provide you with excellent serbvices ,making you have a refreshed feeling after the massage. also keep being health with our sauna"
           />
         </NavLink>
       </Fade>
@@ -29,6 +30,7 @@ const Service = () => {
             image={conference}
             title="Conference Halll Available for meetings and events"
             button="Book now!"
+            description="Book our conference to have amazing experience with your peers ,organize meetings ,celebrations and other events in our luxurious conference hall"
           />
         </NavLink>
       </Fade>
@@ -38,6 +40,7 @@ const Service = () => {
             image={billard}
             title="Coolpooltables Available for you 24/7"
             button="Ask info!"
+            description="Coolpooltables Available for you 24/7,come have fun with your friends"
           />
         </NavLink>
       </Fade>
@@ -47,6 +50,7 @@ const Service = () => {
             image={inzoka}
             title="Bar And Restaurant open 24/7 "
             button="Ask Info!"
+            description="With our bar and resto open 24/7 come have an amazing time with you friends and family and enjoy  delicious meals on our menu "
           />
         </NavLink>
       </Fade>

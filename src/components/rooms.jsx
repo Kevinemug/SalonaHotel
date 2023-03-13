@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { BsPeopleFill } from "react-icons/bs";
 import { BiBed } from "react-icons/bi";
+import "../styles/hero.css";
+
 import { useNavigate } from "react-router-dom";
 const Rooms = ({ image, title, descripton, sleeps, button, bunk }) => {
   const navigate = useNavigate();
